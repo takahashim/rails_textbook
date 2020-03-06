@@ -34,8 +34,10 @@
   \newpagecolor{starter@titlepagecolor} % このページの背景色を指定する
   \afterpage{\restorepagecolor}         % 次のページからは背景色をなくす
 
-  %% カバー挿入
+  \ifstreq{\starter@target}{pbook} % 印刷版ではカバーはなし
+  \else % それ以外はカバー挿入
   \includefullpagegraphics{./images/rails_textbook_cover_omote_ebook.png}
+  \fi
   \thispagestyle{empty}% ページ番号やヘッダーを入れない
   \centering           % 中央寄せ
   %\raggedright        % 左寄せ
