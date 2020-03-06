@@ -9,13 +9,13 @@
   \clearpage
   \thispagestyle{empty}%
   \vbox to \textheight{%
-    \vskip-1in
+    \vskip-0.8in
     \vbox to \paperheight{\vss
       \hbox to \textwidth{%
         \ifodd\c@page
-        \hskip-\dimexpr\oddsidemargin + 1in\relax
+        \hskip-\dimexpr\oddsidemargin + 0.85in\relax
         \else
-        \hskip-\dimexpr\evensidemargin + 1in\relax
+        \hskip-\dimexpr\evensidemargin + 0.85in\relax
         \fi
         \hbox to \paperwidth{\hss
           \includegraphics[#1]{#2}%
@@ -35,7 +35,7 @@
   \afterpage{\restorepagecolor}         % 次のページからは背景色をなくす
 
   %% カバー挿入
-  \includefullpagegraphics[keepaspectratio]{./images/rails_textbook_cover_omote.png}
+  \includefullpagegraphics{./images/rails_textbook_cover_omote_ebook.png}
   \thispagestyle{empty}% ページ番号やヘッダーを入れない
   \centering           % 中央寄せ
   %\raggedright        % 左寄せ
