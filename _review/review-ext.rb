@@ -492,6 +492,9 @@ module ReVIEW
       puts "</div></div>"
     end
 
+    def on_inline_tt()
+      %Q(<code class="tt">#{yield}</code>)
+    end
   end
 
 

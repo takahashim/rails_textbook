@@ -42,7 +42,7 @@ newアクションが実行され新規入力画面を表示します。ここ�
 
 新規入力画面が表示されるまでの処理の流れを見ていきましょう。
 
-![newアクション](assets/new-create/new_create_overview_item_new.png)
+![newアクション](assets/new-create/new_create_overview_item_new2.png)
 
 ![新規入力画面](assets/new-create/books_new_data_1.png)
 
