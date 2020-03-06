@@ -291,6 +291,7 @@ epubmaker:
   # @<href>タグでの外部リンクを禁止し、地の文にする(falseで禁止する)
   # externallink: true
   #
+  coverimage: rails_textbook_cover_omote_ebook.png
   # epubmaker:階層を使うものはここまで
 
 # LaTeX用のスタイルファイル(styディレクトリ以下に置くこと)
